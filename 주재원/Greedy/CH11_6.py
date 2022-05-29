@@ -11,11 +11,11 @@ def solution(food_times, k):
                     continue
                 food_times[i] -= 1
                 k -= 1
-                answer = i + 1 # 다음에 먹어야 할 food의 index
+                answer = i + 1 
                 if k == 0:
                     break          
 
-        for a in range(answer, len(food_times)): # answer부터 len(food_times)-1까지
+        for a in range(answer, len(food_times)):
             if food_times[a] > 0:
                 return a + 1
 
