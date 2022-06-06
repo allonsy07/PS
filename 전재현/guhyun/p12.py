@@ -42,7 +42,7 @@ def check_state_delect(x, y, cr):
                 return 1
             return 0
         return 0
-#대가리 퍼펑!
+#대가리 퍼펑!펑!
 for frame in frames:
     x, y, cr, bd = frame
     if bd:
